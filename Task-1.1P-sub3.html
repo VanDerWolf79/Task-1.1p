@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Page with CSS</title>
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Internal CSS -->
+    <style>
+        h2 {
+            color: green;
+        }
+        
+        form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- inline CSS -->
+    <h1 style="color: red;">Main Heading</h1>
+
+    <h2>Image</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/en/4/4d/Shrek_%28character%29.png" alt="Sample Image" style="width: 300px; height: auto;">
+
+    <h2>Table</h2>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+        </tr>
+        <tr>
+            <td>Data 3</td>
+            <td>Data 4</td>
+        </tr>
+    </table>
+
+    <h2 style="color: purple;">Form</h2>
+    <form style="background-color: lightgray;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Submit" style="background-color: blue; color: white;">
+    </form>
+</body>
+</html>
+
+
+
